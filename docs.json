@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Product Guide",
+  "theme": "mint",
+  "name": "Panduan Pengguna Skoola Space",
   "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#f63a4c",
+    "light": "#f63a4c",
+    "dark": "#f63a4c"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -16,62 +16,65 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": [
+      "copy",
+      "view",
+      "assistant",
+      "mcp",
+      "add-mcp"
+    ]
   },
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
+          "anchor": "ecampuz.com",
+          "icon": "external-link",
+          "href": "https://ecampuz.com"
         },
         {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://blog.ecampuz.com"
         }
       ]
     },
     "directory": "card",
     "groups": [
       {
-        "group": "Platform",
-        "icon": "layers",
+        "group": "Pengenalan",
+        "icon": "info",
         "expanded": true,
         "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+          "index",
+          "pengenalan/cara-mengakses-aplikasi",
+          "pengenalan/cara-keluar-aplikasi",
+          "pengenalan/cara-ubah-password"
         ]
       },
       {
-        "group": "Analytics",
-        "icon": "chart-bar",
+        "group": "Fitur",
+        "icon": "clipboard-check",
         "expanded": true,
         "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
-        ]
-      },
-      {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
-        "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
+          "fitur/beranda",
+          "fitur/dashboard",
+          "fitur/kursusku",
+          {
+            "group": "Administrasi situs",
+            "icon": "graduation-cap",
+            "pages": [
+              "fitur/admin-situs/umum",
+              "fitur/admin-situs/pengguna",
+              "fitur/admin-situs/kursus",
+              "fitur/admin-situs/nilai",
+              "fitur/admin-situs/pengaya",
+              "fitur/admin-situs/tampilan",
+              "fitur/admin-situs/server",
+              "fitur/admin-situs/laporan",
+              "fitur/admin-situs/pengembangan"
+            ]
+          }
         ]
       }
     ]
@@ -85,13 +88,13 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://ecampuz.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "instagram": "https://www.instagram.com/ecampuzofficial/",
+      "linkedin": "https://id.linkedin.com/company/ecampuzofficial"
     }
   }
 }
