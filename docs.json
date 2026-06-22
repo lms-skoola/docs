@@ -57,7 +57,6 @@
           "fitur/kursusku",
           {
             "group": "Administrasi situs",
-            "icon": "graduation-cap",
             "pages": [
               "fitur/admin-situs/umum",
               "fitur/admin-situs/pengguna",
