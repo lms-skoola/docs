@@ -4,9 +4,9 @@
   "name": "Panduan Pengguna Skoola Space",
   "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
   "colors": {
-    "primary": "#f63a4c",
-    "light": "#f63a4c",
-    "dark": "#f63a4c"
+    "primary": "#37618A",
+    "light": "#37618A",
+    "dark": "#37618A"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -28,14 +28,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "ecampuz.com",
+          "anchor": "skoolacloud.id",
           "icon": "external-link",
-          "href": "https://ecampuz.com"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://blog.ecampuz.com"
+          "href": "https://skoolacloud.id"
         }
       ]
     },
@@ -88,13 +83,13 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://ecampuz.com"
+      "href": "https://space.skoolacloud.id"
     }
   },
   "footer": {
     "socials": {
-      "instagram": "https://www.instagram.com/ecampuzofficial/",
-      "linkedin": "https://id.linkedin.com/company/ecampuzofficial"
+      "instagram": "https://www.instagram.com/skoolacloud/",
+      "tiktok": "https://www.tiktok.com/@skoolacloud"
     }
   }
 }
