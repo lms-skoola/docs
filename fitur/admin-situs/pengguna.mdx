@@ -204,3 +204,56 @@ Menu **Pengguna** digunakan untuk mengelola seluruh data pengguna yang terdaftar
     </Frame>
   </Accordion>
 </AccordionGroup>
+
+<Note>
+  **Catatan:**
+
+  - Seluruh pengaturan pada menu **Pengguna** hanya dapat diakses oleh pengguna dengan hak akses **Administrator**.
+  - Perubahan hak akses atau Role akan langsung memengaruhi kemampuan pengguna dalam mengakses fitur Skoola Space.
+  - Pastikan setiap pengguna diberikan Role yang sesuai dengan tugas dan tanggung jawabnya untuk menjaga keamanan dan pengelolaan sistem.
+</Note>
+
+## Cara Import Pengguna
+
+Pada bab ini Administrator akan mempelajari cara membuat akun pengguna dalam jumlah besar menggunakan file CSV (Comma Separated Values). Fitur ini sangat membantu dalam proses pembuatan akun Guru dan Siswa pada awal tahun ajaran sehingga Administrator tidak perlu membuat akun satu per satu secara manual.
+
+<Check>
+  **Melalui fitur ini Administrator dapat:**
+
+  - Membuat akun Guru secara massal.
+  - Membuat akun Siswa secara massal.
+  - Memperbarui data pengguna yang sudah ada.
+  - Menetapkan password awal pengguna.
+  - Mengurangi waktu penginputan data.
+</Check>
+
+<Frame>
+  ![Konsep Import Massal](/images/Konsep-import-massal.png)
+</Frame>
+
+### Persiapan Data Pengguna
+
+<Steps>
+  <Step title="Buat file CSV">
+    Anda dapat membuat file dalam excel dengan format data (seperti tabel di bawah), kemudian simpan file dengan format CSV UTF-8.
+
+    | Username | Password | Nama Depan | Nama Belakang | Email |
+    | --- | --- | --- | --- | --- |
+    | guru001 | Guru@2026 | Budi | Santoso | [guru001@sekolah.sch.id](mailto:guru001@sekolah.sch.id) |
+    | guru002 | Guru@2026 | Siti | Aminah | [guru002@sekolah.sch.id](mailto:guru002@sekolah.sch.id) |
+  </Step>
+  <Step title="Mengakses menu Upload Users">
+    Pada menu Administrasi Situs \> Tab Pengguna \> Unggah Pengguna. Akan tampil form untuk unggah berkas data/file CSV yang telah dibuat.
+  </Step>
+  <Step title="Unggah File CSV">
+    Tekan tombol **Pilih Berkas,** Anda akan di arahkan pada file dokumen perangkat Anda klik **Pilih Berkas Ini **
+  </Step>
+  <Step title="Unggah Pengguna">
+    Pastikan file yang siap untuk di unggah telah sesuai dengan format. Sistem akan membaca dan memvalidasi data pengguna. Sebagai Administrator perlu melakukan pemeriksaan **Username, Nama pengguna, Email, Password, Format data.** 
+
+    Anda dapat tekan tombol **Lanjutkan** ketika proses import selesai. Sistem menampilkan jumlah akun yang berhasil dibuat.
+  </Step>
+  <Step title="Verifikasi Hasil Import">
+    Setelah proses import selesai, Administrator perlu memastikan akun berhasil dibuat. Buka menu **Telusuri Daftar Pengguna, **cari salah satu akun yang baru diimport dan pastikan data tampil dengan benar.
+  </Step>
+</Steps>
